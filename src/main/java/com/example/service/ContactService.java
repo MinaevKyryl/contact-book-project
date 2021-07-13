@@ -18,6 +18,9 @@ public class ContactService {
     public List<Contact> getAllContacts(){
         return contactRepository.findAll();
     }
+    public Page<Contact> getAllContactsPage(Pageable pageable){
+        return contactRepository.findAll(pageable);
+    }
     public void addContact(Contact contact){
         contact.setId(sequenceGeneratorService.getNextSequence(Contact.SEQUENCE_NAME));
         contactRepository.save(contact);
@@ -31,7 +34,8 @@ public class ContactService {
     public void deleteContact(Contact contact){
         contactRepository.delete(contact);
     }
-    public List<Contact> findByFullName(String fullName){
-        return contactRepository.findByFullNameContainingIgnoreCase(fullName);
+    public List<Contact> findInAllFields(String query){
+        return contactRepository.findByFullNameContainingIgnoreCaseOrFirstNameContainingIgnoreCaseOrLastNameContainingIgnoreCaseOrPhoneNumberContainingOrCellPhoneNumberContainingOrAddressContainingIgnoreCase(
+                query, query, query, query, query, query);
     }
 }
