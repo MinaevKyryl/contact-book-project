@@ -6,6 +6,11 @@
 </head>
 <body>
     <h2>All Contacts</h2>
+    <form th:action="@{/contacts}" th:object="${search}" method="post">
+        <td><label for="search">Search:</label></td>
+        <td><input type="text" id="search" th:name="search" ></td>
+        <input type="submit" id="submitButton" th:value="Search">
+    </form>
     <table>
         <thead>
         <tr>

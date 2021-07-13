@@ -7,12 +7,10 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
+import java.util.List;
 
 @Controller
 public class ContactsController {
@@ -22,6 +20,13 @@ public class ContactsController {
     @GetMapping("/contacts")
     public String getContacts(Model model) {
         model.addAttribute("contacts", contactService.getAllContacts());
+        return "/contacts";
+    }
+    @PostMapping("/contacts")
+    public String getSearchContacts(Model model, @RequestParam(value = "search") String query) {
+        if(query.isEmpty())
+            model.addAttribute("contacts", contactService.getAllContacts());
+        else model.addAttribute("contacts", contactService.findByFullName(query));
         return "/contacts";
     }
     @GetMapping("/create_contact")

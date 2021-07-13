@@ -3,6 +3,8 @@ package com.example.service;
 import com.example.model.entity.Contact;
 import com.example.repository.ContactRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import java.util.List;
 
@@ -28,5 +30,8 @@ public class ContactService {
     }
     public void deleteContact(Contact contact){
         contactRepository.delete(contact);
+    }
+    public List<Contact> findByFullName(String fullName){
+        return contactRepository.findByFullNameContainingIgnoreCase(fullName);
     }
 }

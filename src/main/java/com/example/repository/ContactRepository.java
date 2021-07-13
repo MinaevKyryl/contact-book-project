@@ -7,4 +7,5 @@ import java.util.List;
 
 public interface ContactRepository extends MongoRepository<Contact, String> {
     Contact findById(Long id);
+    List<Contact> findByFullNameContainingIgnoreCase(String fullName);
 }
