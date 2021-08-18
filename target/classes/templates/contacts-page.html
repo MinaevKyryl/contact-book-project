@@ -33,7 +33,7 @@
     </thead>
     <tbody>
     <tr th:if="${contacts.empty}">
-        <td colspan="2"> There are no contacts</td>
+        <td colspan="2"> There are no contacts on this page</td>
     </tr>
     <tr th:each="contact : ${contacts}">
         <td><span th:text="${contact.fullName}"></span></td>

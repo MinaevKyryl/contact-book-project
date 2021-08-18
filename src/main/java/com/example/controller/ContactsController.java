@@ -19,11 +19,11 @@ public class ContactsController {
     @Autowired
     ContactService contactService;
 
-    @GetMapping("/contacts")
+/*    @GetMapping("/contacts")
     public String getContacts(Model model) {
         model.addAttribute("contacts", contactService.getAllContacts());
         return "/contacts";
-    }
+    }*/
     @GetMapping("/contacts-page")
     public String getContactsPage(Model model, @RequestParam(value = "page") Optional<Integer> page) {
         Page<Contact> contactPage = contactService.getAllContactsPage(PageRequest.of(page.orElse(0), CONTACTS_ON_PAGE));
@@ -37,7 +37,7 @@ public class ContactsController {
         return "/contacts-page";
     }
     @PostMapping("/contacts")
-    public String getSearchContacts(Model model, @RequestParam(value = "search") String query) {
+    public String findContactsAllFieldsx(Model model, @RequestParam(value = "search") String query) {
         if(query.isEmpty())
             model.addAttribute("contacts", contactService.getAllContacts());
         else model.addAttribute("contacts", contactService.findInAllFields(query));
@@ -49,13 +49,13 @@ public class ContactsController {
         return "/create_contact";
     }
 
-    @PostMapping("/create_contact")
+/*    @PostMapping("/create_contact")
     public String createContact(@ModelAttribute("contactForm") @Valid Contact contact, BindingResult bindingResult){
         if(bindingResult.hasErrors())
             return "/create_contact";
         contactService.addContact(contact);
         return "redirect:/contacts";
-    }
+    }*/
 
     @GetMapping("/edit_contact/{id}")
     public String showEditForm(@PathVariable("id") Long id, Model model) {
@@ -63,7 +63,7 @@ public class ContactsController {
         model.addAttribute("contact", contact);
         return "edit_contact";
     }
-    @PostMapping("/edit_contact/{id}")
+/*    @PostMapping("/edit_contact/{id}")
     public String editContact(@PathVariable("id") long id, @Valid Contact contact, BindingResult bindingResult, Model model) {
         if (bindingResult.hasErrors()) {
             contact.setId(id);
@@ -72,8 +72,8 @@ public class ContactsController {
         contact.setId(id);
         contactService.updateContact(contact);
         return "redirect:/contacts";
-    }
-    @GetMapping("/delete_contact/{id}")
+    }*/
+/*    @GetMapping("/delete_contact/{id}")
     public String deleteContact(@PathVariable("id") long id) {
         Contact contact = null;
         try {
@@ -83,5 +83,5 @@ public class ContactsController {
         }
         contactService.deleteContact(contact);
         return "redirect:/contacts";
-    }
+    }*/
 }

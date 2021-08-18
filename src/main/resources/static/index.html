@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div ng-app="contactsList" ng-controller="contactsListController">
+    <table border="1">
+        <tr>
+            <th>Emp Id</th>
+            <th>Emp No</th>
+            <th>Emp Name</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+        <!-- $scope.contacts -->
+        <tr ng-repeat="contact in contactsList">
+            <td> {{ contact.fullName }}</td>
+            <td> {{ contact.firstName }}</td>
+            <td>{{ contact.lastName }}</td>
+            <td>{{ contact.phoneNumber }}</td>
+            <td>{{ contact.cellPhoneNumber }}</td>
+            <td>{{ contact.address }}</td>
+<!--            <td>
+                <a ng-click="editEmployee(employee)" class="edit-button">Edit</a>
+            </td>
+            <td>
+                <a ng-click="deleteEmployee(employee)" class="delete-button">Delete</a>
+            </td>-->
+        </tr>
+    </table>
+
+</div>
+
+<script src="../js/Contacts.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular.js"></script>
+</body>
+</html>
