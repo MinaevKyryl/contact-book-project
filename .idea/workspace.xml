@@ -4,16 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b4169b4-b518-446f-8953-1c86af85b91c" name="Default Changelist" comment="Added search by all fields and pagination">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/ContactsRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/js/Contacts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="9b4169b4-b518-446f-8953-1c86af85b91c" name="Default Changelist" comment="Added Angular module">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/ContactsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/ContactsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/controller/ContactsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/controller/ContactsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/contacts-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/contacts-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angularclient/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angularclient/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angularclient/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/angularclient/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angularclient/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/angularclient/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angularclient/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angularclient/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angularclient/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angularclient/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angularclient/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/angularclient/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/ContactsRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/ContactsRestController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +57,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringBootHelloWorld-ang/SpringBootHelloWorld-ang" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/angularclient" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -87,13 +86,15 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -130,7 +131,8 @@
       <workItem from="1627376174291" duration="599000" />
       <workItem from="1627401965350" duration="57000" />
       <workItem from="1627569803843" duration="70000" />
-      <workItem from="1629291704933" duration="1732000" />
+      <workItem from="1629291704933" duration="4340000" />
+      <workItem from="1629366953683" duration="2299000" />
     </task>
     <task id="LOCAL-00001" summary="Added search by Full Name">
       <created>1626174124716</created>
@@ -146,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626193739938</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added Angular module">
+      <created>1629294253587</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1629294253587</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +176,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added search by Full Name" />
     <MESSAGE value="Added search by all fields and pagination" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added search by all fields and pagination" />
+    <MESSAGE value="Added Angular module" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Angular module" />
   </component>
 </project>
