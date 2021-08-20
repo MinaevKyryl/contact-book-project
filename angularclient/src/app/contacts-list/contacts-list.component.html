@@ -8,16 +8,21 @@
       <th>Phone Number</th>
       <th>Cell Phone Number</th>
       <th>Address</th>
+      <th>Actions</th>
     </tr>
   </thead>
   <tbody>
     <tr *ngFor = "let contact of contacts">
-      <td>{{contact.fullName}}</td>
+      <td (click)="contactDetails(contact.id)">{{contact.fullName}}</td>
       <td>{{contact.firstName}}</td>
       <td>{{contact.lastName}}</td>
       <td>{{contact.phoneNumber}}</td>
       <td>{{contact.cellPhoneNumber}}</td>
       <td>{{contact.address}}</td>
+      <td>
+        <button (click)="editContact(contact.id)" class="btn btn-info">Edit</button>
+        <button (click)="deleteContact(contact.id)" class="btn btn-danger" style="margin-left: 3%">Delete</button>
+      </td>
     </tr>
   </tbody>
 </table>

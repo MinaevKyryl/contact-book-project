@@ -4,15 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b4169b4-b518-446f-8953-1c86af85b91c" name="Default Changelist" comment="Added Angular module">
+    <list default="true" id="9b4169b4-b518-446f-8953-1c86af85b91c" name="Default Changelist" comment="Connected Angular and REST Controller. Created Contact Entity, Service and Component for contacts list on Angular.">
+      <change afterPath="$PROJECT_DIR$/angularclient/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angularclient/src/app/create-contact/create-contact.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angularclient/src/app/create-contact/create-contact.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angularclient/src/app/create-contact/create-contact.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angularclient/src/app/create-contact/create-contact.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularclient/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angularclient/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularclient/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/angularclient/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularclient/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/angularclient/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angularclient/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angularclient/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angularclient/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angularclient/src/app/app.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angularclient/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angularclient/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angularclient/src/app/contact.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angularclient/src/app/contact.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angularclient/src/app/contacts-list/contacts-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angularclient/src/app/contacts-list/contacts-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angularclient/src/app/contacts-list/contacts-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angularclient/src/app/contacts-list/contacts-list.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angularclient/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/angularclient/src/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/ContactsRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/ContactsRestController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,19 +91,6 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="contact-book-project" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.Application" />
@@ -132,7 +124,8 @@
       <workItem from="1627401965350" duration="57000" />
       <workItem from="1627569803843" duration="70000" />
       <workItem from="1629291704933" duration="4340000" />
-      <workItem from="1629366953683" duration="2299000" />
+      <workItem from="1629366953683" duration="3420000" />
+      <workItem from="1629455136678" duration="7675000" />
     </task>
     <task id="LOCAL-00001" summary="Added search by Full Name">
       <created>1626174124716</created>
@@ -155,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629294253587</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Connected Angular and REST Controller. Created Contact Entity, Service and Component for contacts list on Angular.">
+      <created>1629369676248</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1629369676248</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +177,7 @@
     <MESSAGE value="Added search by Full Name" />
     <MESSAGE value="Added search by all fields and pagination" />
     <MESSAGE value="Added Angular module" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Angular module" />
+    <MESSAGE value="Connected Angular and REST Controller. Created Contact Entity, Service and Component for contacts list on Angular." />
+    <option name="LAST_COMMIT_MESSAGE" value="Connected Angular and REST Controller. Created Contact Entity, Service and Component for contacts list on Angular." />
   </component>
 </project>
