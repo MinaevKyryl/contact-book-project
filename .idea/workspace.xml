@@ -4,20 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b4169b4-b518-446f-8953-1c86af85b91c" name="Default Changelist" comment="Connected Angular and REST Controller. Created Contact Entity, Service and Component for contacts list on Angular.">
-      <change afterPath="$PROJECT_DIR$/angularclient/src/app/app-routing.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angularclient/src/app/create-contact/create-contact.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angularclient/src/app/create-contact/create-contact.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angularclient/src/app/create-contact/create-contact.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angularclient/src/app/create-contact/create-contact.component.ts" afterDir="false" />
+    <list default="true" id="9b4169b4-b518-446f-8953-1c86af85b91c" name="Default Changelist" comment="Added">
+      <change afterPath="$PROJECT_DIR$/angularclient/src/app/contacts-cards/contacts-cards.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angularclient/src/app/contacts-cards/contacts-cards.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angularclient/src/app/contacts-cards/contacts-cards.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angularclient/src/app/contacts-cards/contacts-cards.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angularclient/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angularclient/src/app/app-routing.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angularclient/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angularclient/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularclient/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angularclient/src/app/app.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angularclient/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angularclient/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularclient/src/app/contact.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angularclient/src/app/contact.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularclient/src/app/contacts-list/contacts-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angularclient/src/app/contacts-list/contacts-list.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularclient/src/app/contacts-list/contacts-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angularclient/src/app/contacts-list/contacts-list.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularclient/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/angularclient/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angularclient/src/app/edit-contact/edit-contact.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angularclient/src/app/edit-contact/edit-contact.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +121,10 @@
       <workItem from="1627569803843" duration="70000" />
       <workItem from="1629291704933" duration="4340000" />
       <workItem from="1629366953683" duration="3420000" />
-      <workItem from="1629455136678" duration="7675000" />
+      <workItem from="1629455136678" duration="7981000" />
+      <workItem from="1629706807499" duration="12000" />
+      <workItem from="1629721846796" duration="1332000" />
+      <workItem from="1630311515005" duration="1831000" />
     </task>
     <task id="LOCAL-00001" summary="Added search by Full Name">
       <created>1626174124716</created>

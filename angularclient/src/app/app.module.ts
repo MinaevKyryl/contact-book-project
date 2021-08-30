@@ -9,6 +9,7 @@ import { CreateContactComponent } from './create-contact/create-contact.componen
 import { FormsModule} from "@angular/forms";
 import { EditContactComponent } from './edit-contact/edit-contact.component';
 import { ContactDetailsComponent } from './contact-details/contact-details.component';
+import {ContactsCardsComponent} from "./contacts-cards/contacts-cards.component";
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ContactDetailsComponent } from './contact-details/contact-details.compo
     ContactsListComponent,
     CreateContactComponent,
     EditContactComponent,
-    ContactDetailsComponent
+    ContactDetailsComponent,
+    ContactsCardsComponent
   ],
   imports: [
     AppRoutingModule,

@@ -1,0 +1,9 @@
+<div class="card-group">
+  <div class="card-container p-3" *ngFor="let contact of contacts">
+    <div class="card-body border rounded-3" (click)="contactDetails(contact.id)" >
+      <h4 class="card-title">{{contact.fullName}}</h4>
+      <p class="card-text">Phone number: {{contact.phoneNumber}}</p>
+      <p>Address: {{contact.address}}</p>
+    </div>
+  </div>
+</div>
