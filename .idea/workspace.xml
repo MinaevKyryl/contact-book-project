@@ -5,15 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b4169b4-b518-446f-8953-1c86af85b91c" name="Default Changelist" comment="Added">
-      <change afterPath="$PROJECT_DIR$/angularclient/src/app/contacts-cards/contacts-cards.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angularclient/src/app/contacts-cards/contacts-cards.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angularclient/src/app/contacts-cards/contacts-cards.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angularclient/src/app/contacts-cards/contacts-cards.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularclient/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angularclient/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularclient/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angularclient/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angularclient/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angularclient/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angularclient/src/app/contacts-cards/contacts-cards.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angularclient/src/app/contacts-cards/contacts-cards.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angularclient/src/app/create-contact/create-contact.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/angularclient/src/app/create-contact/create-contact.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angularclient/src/app/create-contact/create-contact.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angularclient/src/app/create-contact/create-contact.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angularclient/src/app/create-contact/create-contact.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angularclient/src/app/create-contact/create-contact.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angularclient/src/app/edit-contact/edit-contact.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/angularclient/src/app/edit-contact/edit-contact.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angularclient/src/app/edit-contact/edit-contact.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angularclient/src/app/edit-contact/edit-contact.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angularclient/src/app/edit-contact/edit-contact.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angularclient/src/app/edit-contact/edit-contact.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angularclient/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/angularclient/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +125,9 @@
       <workItem from="1629455136678" duration="7981000" />
       <workItem from="1629706807499" duration="12000" />
       <workItem from="1629721846796" duration="1332000" />
-      <workItem from="1630311515005" duration="1831000" />
+      <workItem from="1630311515005" duration="4750000" />
+      <workItem from="1630342548452" duration="91000" />
+      <workItem from="1630399805530" duration="4770000" />
     </task>
     <task id="LOCAL-00001" summary="Added search by Full Name">
       <created>1626174124716</created>

@@ -10,6 +10,7 @@ import { FormsModule} from "@angular/forms";
 import { EditContactComponent } from './edit-contact/edit-contact.component';
 import { ContactDetailsComponent } from './contact-details/contact-details.component';
 import {ContactsCardsComponent} from "./contacts-cards/contacts-cards.component";
+import{ReactiveFormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import {ContactsCardsComponent} from "./contacts-cards/contacts-cards.component"
     AppRoutingModule,
     BrowserModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

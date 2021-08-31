@@ -1,36 +1,44 @@
 <div class="col-md-6 offset-md-3">
   <h3>Create Contact</h3>
-  <form (ngSubmit)="onSubmit()">
+  <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
     <div class="form-group">
       <label>Full Name</label>
-      <input type="text" class="form-control" id="fullName"
+      <input required type="text"  formControlName = "fullName" class="form-control" id="fullName"
              [(ngModel)]="contact.fullName" name="fullName">
+      <span class="alert-danger " *ngIf="fullName.invalid && fullName.dirty">Full name field is required and should contains text data</span>
     </div>
     <div class="form-group">
       <label>First Name</label>
-      <input type="text" class="form-control" id="firstName"
+      <input formControlName = "firstName" type="text" class="form-control" id="firstName"
              [(ngModel)]="contact.firstName" name="firstName">
+      <span class="alert-danger " *ngIf="firstName.invalid && firstName.dirty">First name field should contains text data</span>
+
     </div>
     <div class="form-group">
       <label>Last Name</label>
-      <input type="text" class="form-control" id="lastName"
+      <input formControlName = "lastName" type="text" class="form-control" id="lastName"
              [(ngModel)]="contact.lastName" name="lastName">
+      <span class="alert-danger " *ngIf="lastName.invalid && lastName.dirty">Last name field should contains text data</span>
+
     </div>
     <div class="form-group">
       <label>Phone Number</label>
-      <input type="text" class="form-control" id="phoneNumber"
+      <input formControlName = "phoneNumber" type="text" class="form-control" id="phoneNumber"
              [(ngModel)]="contact.phoneNumber" name="phoneNumber">
+      <span class="alert-danger " *ngIf="phoneNumber.invalid && phoneNumber.dirty">Phone number field should contains digits</span>
     </div>
     <div class="form-group">
       <label>Cell Phone Number</label>
-      <input type="text" class="form-control" id="cellPhoneNumber"
+      <input required formControlName = "cellPhoneNumber" type="text" class="form-control" id="cellPhoneNumber"
              [(ngModel)]="contact.cellPhoneNumber" name="cellPhoneNumber">
+      <span class="alert-danger " *ngIf="cellPhoneNumber.invalid && cellPhoneNumber.dirty">Cell phone number field is required and should contains digits</span>
     </div>
     <div class="form-group">
       <label>Address</label>
-      <input [(ngModel)]="contact.address" class="form-control" id="address"
+      <input required formControlName = "address" [(ngModel)]="contact.address" class="form-control" id="address"
              name="address" type="text">
+      <span class="alert-danger " *ngIf="address.invalid && address.dirty">Address field is required</span>
     </div>
-    <button class="btn btn-success" type="submit">Submit</button>
+    <button *ngIf="contactForm.valid"  class="btn btn-success" type="submit">Submit</button>
   </form>
 </div>
