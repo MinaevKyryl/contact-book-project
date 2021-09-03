@@ -9,7 +9,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Setter
 @Document(collection = "dbSequance")
 public class DbSequance {
-        @Id
-        private String id;
-        private long seq;
+    @Id
+    private String id;
+    private long seq;
 }

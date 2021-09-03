@@ -6,15 +6,21 @@
   <component name="ChangeListManager">
     <list default="true" id="9b4169b4-b518-446f-8953-1c86af85b91c" name="Default Changelist" comment="Added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularclient/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angularclient/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularclient/src/app/contacts-cards/contacts-cards.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angularclient/src/app/contacts-cards/contacts-cards.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularclient/src/app/create-contact/create-contact.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/angularclient/src/app/create-contact/create-contact.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularclient/src/app/create-contact/create-contact.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angularclient/src/app/create-contact/create-contact.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularclient/src/app/create-contact/create-contact.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angularclient/src/app/create-contact/create-contact.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularclient/src/app/edit-contact/edit-contact.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/angularclient/src/app/edit-contact/edit-contact.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularclient/src/app/edit-contact/edit-contact.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angularclient/src/app/edit-contact/edit-contact.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularclient/src/app/edit-contact/edit-contact.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angularclient/src/app/edit-contact/edit-contact.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularclient/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/angularclient/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/ContactsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/ContactsRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/ContactsRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/model/entity/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/model/entity/Contact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/model/entity/DbSequance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/model/entity/DbSequance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/repository/ContactRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/repository/ContactRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/service/ContactService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/service/ContactService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/js/Contacts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/contacts-page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/contacts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/create_contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/edit_contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/controller/ContactsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/contacts-page.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +94,19 @@
     </option>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="contact-book-project" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.Application" />
@@ -128,6 +147,8 @@
       <workItem from="1630311515005" duration="4750000" />
       <workItem from="1630342548452" duration="91000" />
       <workItem from="1630399805530" duration="4770000" />
+      <workItem from="1630423570716" duration="3312000" />
+      <workItem from="1630660435185" duration="1022000" />
     </task>
     <task id="LOCAL-00001" summary="Added search by Full Name">
       <created>1626174124716</created>
